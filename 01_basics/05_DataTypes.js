@@ -48,3 +48,5 @@ const myFunc = function() {
 }
 
 myFunc();
+
+console.log(typeof outsideTemp); // "object"
