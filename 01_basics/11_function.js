@@ -41,7 +41,9 @@ function handleObject(obj){
 console.log(`Username: ${obj.username}, Price: ${obj.price}`); // Username: Rajat, Price: 500
     
 }
-ha
+handleobject(user)
+
+
 
 
 
