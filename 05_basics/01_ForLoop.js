@@ -32,20 +32,31 @@ for (let index = 0; index < myArray.length; index++) {
 for (let i = 0; i <= 10; i++) {
   if(i == 5){
     // break;
-    console.log(`Detected 5`);
+    // console.log(`Detected 5`);
     
     continue;
   }
-  console.log(`Value of i is ${i}`);
+  // console.log(`Value of i is ${i}`);
   
 }
-
-
-
-
-
-
-
+//while loop
+let index = 0;
+while(index < 10){
+  // console.log(`While Loop Index: ${index}`);
+  index = index + 1;
+}
+let myArray2 = ['India', 'USA', 'UK', 'Australia', 'Canada'];
+let arr = 0;
+while(arr < myArray2.length){
+  // console.log(`value is ${myArray2[arr]}`);
+  arr = arr + 1;
+}
+//do while loop
+let score = 11;
+do{
+  // console.log(`Your score is ${score}`);
+  score++;
+}while(score < 5);
 
 
 
